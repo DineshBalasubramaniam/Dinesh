@@ -1,6 +1,7 @@
-def largest( n ):
-    return max(n)
+s=input()
+k=s.split()
 list=[]
 for i in range(0,3):
-    list.append(int(input()))
-print ( largest( list ))
+    list.append(int(k[i]))
+print(max(list))
+    
